@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+        }
+        .header {
+            width: 100%;
+            padding: 20px;
+            background: #343a40;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+        }
+        .hero {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+        .btn {
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            color: white;
+            background-color: #ff5733;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #e04e2e;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            background: #fff;
+        }
+        .feature-box {
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .feature-box h3 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #343a40;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">MyBrand</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to Our Website</h1>
+        <p>Explore amazing features and get started with us today.</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+    
+    <section class="features">
+        <div class="feature-box">
+            <h3>Fast Performance</h3>
+            <p>Optimized for speed and smooth experience.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Responsive Design</h3>
+            <p>Looks great on any device, mobile or desktop.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Easy Customization</h3>
+            <p>Modify and adapt it to your needs effortlessly.</p>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        &copy; 2025 MyBrand. All rights reserved.
+    </footer>
+</body>
+</html>
